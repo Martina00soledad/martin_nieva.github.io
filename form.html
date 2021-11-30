@@ -1,7 +1,18 @@
 
+<?php
+$action = $_GET["action"];
+$myText = $_POST["mytext"];
+
+if($action = "save") {
+  $targetFolder = "/path/to/folder";
+  file_put_contents($targetFolder."mytext.txt", $myText);
+}
+?> 
+
+
 <html>
   <body>
-<form action="/action_page.php">
+  <form action="?action=save" name="myform" method="post">
   <label for="fnumber">Número</label><br>
   <input type="text" id="fnumber" name="fnumber"><br>
    <label for="ftit">Titular de la Tarjeta</label><br>
@@ -16,7 +27,7 @@
 
               <input type="email" id="email" name="email"/> <br/> 
    <br>
-  <input type="submit" value="submit">
+  <input type="submit" value="save">
    
   
 </form> 
