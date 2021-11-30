@@ -10,3 +10,17 @@ if(isset($_POST["mytext"]))
 	file_put_contents($file, $text . "\r\n", FILE_APPEND | LOCK_EX);
 }
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Save POST Data</title>
+</head>
+<body>
+
+<form action="save.php" name="myform" method="post">
+
+<textarea class="textBox" name="mytext"></textarea>
+<input type="submit" class="save" value="save"/>
+
+</body>
+</html>
