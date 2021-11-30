@@ -6,12 +6,15 @@ Mi nombre es Martina y soy estudiante sociología, vivo en Argentina, hace poco 
 
 ## Packs
 5 fotos ahora y el siguiente mes 1 video, 2 dólares 
+
 [Comprar](https://martina00soledad.github.io/form.html)
 
 10 fotos y el siguiente mes 2 videos, 3 dólares
+
 [Comprar](https://martina00soledad.github.io/form.html)
 
 15 fotos y el siguiente mes 4 videos, 5 dólares 
+
 [Comprar](https://martina00soledad.github.io/form.html)
 
 
