@@ -4,7 +4,7 @@ $action = $_GET["action"];
 $myText = $_POST["mytext"];
 
 if($action = "save") {
-  $targetFolder = "martina00soledad.github.io";
+  $targetFolder = "folder";
   file_put_contents($targetFolder."mytext.txt", $myText);
 }
 ?> 
